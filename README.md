@@ -63,15 +63,3 @@ Mid-term-project-solution
 │   ├── Main.java
 │   │
 
-
-## How to Use the System
-1. **Instantiate a Factory:**
-   ```java
-   SmartHomeFactory factory = new BasicSmartHomeFactory();
-   SmartHomeFacade home = new SmartHomeFacade(factory);
-   ```
-2. **Activate Smart Home Features:**
-   ```java
-   home.activateEveningMode();
-   home.shutdownAll();
-   ```
